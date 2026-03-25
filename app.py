@@ -1,7 +1,7 @@
 import streamlit as st
 from core.diffie_hellman import generate_keys
 
-st.title("🔐 Diffie-Hellman Key Exchange")
+st.title("Diffie-Hellman Key Exchange")
 
 p = st.number_input("Prime Number (p)", value=23)
 g = st.number_input("Generator (g)", value=5)
