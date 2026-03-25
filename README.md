@@ -59,16 +59,13 @@ diffie-hellman-app/
 │
 ├── app.py
 ├── requirements.txt
-├── README.md
+├
 │
 ├── core/
 │   └── diffie_hellman.py
 │
 ├── utils/
 │   └── helpers.py
-│
-├── assets/
-│   └── dh-diagram.png
 │
 └── .gitignore
 ```
@@ -80,8 +77,8 @@ diffie-hellman-app/
 ### 1️ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/diffie-hellman-app.git
-cd diffie-hellman-app
+git clone https://github.com/your-username/DHK.git
+cd DHK
 ```
 
 ### 2️ Create virtual environment (recommended)
