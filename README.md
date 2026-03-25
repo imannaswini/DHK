@@ -44,11 +44,11 @@ Even though public values are exchanged openly, the private keys remain secure.
 
 ##  Features
 
-* 🔹 Interactive UI using Streamlit
-* 🔹 Real-time key generation
-* 🔹 Clean modular architecture
-* 🔹 Beginner-friendly visualization of cryptographic concepts
-* 🔹 Input validation support (optional utils module)
+* Interactive UI using Streamlit
+* Real-time key generation
+*  Clean modular architecture
+*  Beginner-friendly visualization of cryptographic concepts
+*  Input validation support (optional utils module)
 
 ---
 
