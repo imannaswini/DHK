@@ -1,10 +1,10 @@
-# 🔐 Diffie-Hellman Key Exchange Simulator
+#  Diffie-Hellman Key Exchange Simulator
 
 A web-based interactive simulator that demonstrates how two users can securely exchange a secret key over an insecure channel using the Diffie-Hellman algorithm.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project visualizes the **Diffie-Hellman Key Exchange**, a fundamental concept in cryptography used in real-world secure communication protocols.
 
@@ -17,7 +17,7 @@ It allows users to:
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. Two users agree on public values:
 
@@ -42,7 +42,7 @@ Even though public values are exchanged openly, the private keys remain secure.
 
 ---
 
-## 🚀 Features
+##  Features
 
 * 🔹 Interactive UI using Streamlit
 * 🔹 Real-time key generation
@@ -52,7 +52,7 @@ Even though public values are exchanged openly, the private keys remain secure.
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 diffie-hellman-app/
@@ -75,16 +75,16 @@ diffie-hellman-app/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 
 ```bash
 git clone https://github.com/your-username/diffie-hellman-app.git
 cd diffie-hellman-app
 ```
 
-### 2️⃣ Create virtual environment (recommended)
+### 2️ Create virtual environment (recommended)
 
 ```bash
 python -m venv venv
@@ -104,13 +104,13 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 3️⃣ Install dependencies
+### 3️ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the application
+### 4️ Run the application
 
 ```bash
 streamlit run app.py
@@ -118,7 +118,7 @@ streamlit run app.py
 
 ---
 
-## 🌐 Usage
+##  Usage
 
 * Enter values for:
 
@@ -135,25 +135,25 @@ streamlit run app.py
 
 ---
 
-## 🔐 Security Concept
+##  Security Concept
 
 This project is based on the **Discrete Logarithm Problem**, which makes it computationally difficult to derive private keys from public values, ensuring secure communication.
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
-* Python 🐍
-* Streamlit 🎨
+* Python 
+* Streamlit 
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
-* 🔥 Man-in-the-Middle (MITM) attack simulation
-* 🔥 Encryption using generated key
-* 🔥 Visualization of key exchange process
-* 🔥 Deployment on Streamlit Cloud
+*  Man-in-the-Middle (MITM) attack simulation
+*  Encryption using generated key
+*  Visualization of key exchange process
+*  Deployment on Streamlit Cloud
 
 ---
 
